@@ -12,7 +12,7 @@ def process_dir(dir_path):
     for file_name in os.listdir(dir_path):
         if file_name.lower().endswith('.pdf'):
             file_path = os.path.join(dir_path, file_name)
-            print(file_path)
+            #print(file_path)
             pull_tables(file_name, file_path)
 
 def process_file(file_path):
