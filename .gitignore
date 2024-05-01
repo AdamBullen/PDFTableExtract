@@ -1,0 +1,11 @@
+*.~lock*
+./bulid/*
+./_pycache_/*
+*.pyc
+*.toc
+*.znip
+*.pyz
+*.txt
+*.csv
+*.html
+*.pdf
