@@ -12,7 +12,6 @@ dist/*/
 *.csv
 *.html
 *.pdf
-*.spec
 *.zip
 *.exe
 *.pkg
