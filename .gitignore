@@ -1,8 +1,10 @@
 *.~lock*
-./bulid/*
-./_pycache_/*
-./dist/*
+bulid/*
+_pycache_/*
+dist/*
 *.pyc
+*.pyd
+*.dll
 *.toc
 *.znip
 *.pyz
@@ -12,3 +14,4 @@
 *.pdf
 *.spec
 *.zip
+*.exe
