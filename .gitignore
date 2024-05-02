@@ -1,6 +1,7 @@
 *.~lock*
 ./bulid/*
 ./_pycache_/*
+./dist/*
 *.pyc
 *.toc
 *.znip
