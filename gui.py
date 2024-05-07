@@ -54,6 +54,7 @@ class Root(Tk):
             
         except:
             self.processButton.config(bg='red')
+            self.processButton.config(bg='red')
         else:
             self.processButton.config(bg='green')
         

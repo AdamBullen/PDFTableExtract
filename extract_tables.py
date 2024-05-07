@@ -6,7 +6,9 @@ def pull_tables(file_name, file_path):
 
     for i, table in enumerate(tables):
         fname=f"""{file_name}_T{i}.csv"""
-        table.to_csv(fname, index='False')
+        f=os.path.join(os.path.dirname(file_path),fname)
+        #print('=======> '+f)
+        table.to_csv(f, index='False')
 
 def process_dir(dir_path):
     for file_name in os.listdir(dir_path):
